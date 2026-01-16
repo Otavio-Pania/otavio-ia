@@ -9,7 +9,7 @@ st.set_page_config(
     layout="centered"
 )
 
-OPENROUTER_API_KEY = os.getenv("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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 USERS = eval(os.getenv("USERS", "{}"))
 
 # CONTROLE DE LOGIN
